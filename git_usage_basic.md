@@ -22,7 +22,7 @@ commit 为 git 的操作单元。
 * Branch 是指向某个 commit 的 Pointer
 * 可以有N个Pointer，所以可以有N个Branch
 
-[参考](http://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is)
+> [拓展阅读](http://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is)
 
 ### 3. Repository
 
@@ -58,6 +58,7 @@ commit 为 git 的操作单元。
 
 ### file 状态迁移
 
+![](http://going1000sblog-image.stor.sinaapp.com/lifecycle.png)
 
 ###  Merge vs Rebase 
 
@@ -128,7 +129,15 @@ commit 为 git 的操作单元。
 
 	Clone a repository into a new directory
 
+====================================================
+### Reference:
 
+
+> git document: http://git-scm.com/doc
+
+> Git for Computer Scientists: http://eagain.net/articles/git-for-computer-scientists/
+
+> Ry’s Git Tutorial: http://rypress.com/tutorials/git/
 
 
 
