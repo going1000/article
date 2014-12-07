@@ -58,14 +58,23 @@ commit 为 git 的操作单元。
 
 ### file 状态迁移
 
-![](http://going1000sblog-image.stor.sinaapp.com/lifecycle.png)
+![](images/git_usage_basic/lifecycle.png)
 
 ###  Merge vs Rebase 
 
+merge
 
-> 拓展： fast forward
+![](images/git_usage_basic/merge-p1.png)
 
-> 拓展： merge 和 rebase 对 hash 的影响
+rebase
+
+![](images/git_usage_basic/rebase-p1.png)
+
+
+> 拓展： fast forward => 
+> Instead of re-creating the commits in css and adding them to the history of master, Git reuses the existing snapshots and simply moves the tip of master to match the tip of css. This kind of merge is called a fast-forward merge, since Git is “fast-forwarding” through the new commits in the css branch.
+
+> 拓展： merge 和 rebase 对 hash 的影响 => 不是 fast forward 模式，则会穿件新的 snapshot
 
 
 ### 冲突处理
