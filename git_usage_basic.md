@@ -103,7 +103,7 @@ rebase
 
 ## 三、Repository 间操作
 
-作为一个DCVS，git的远程 Repository 和本地是一样的 【可能有些差异？】。所以将 Repository 间操作单独拿出来。
+作为一个DCVS，git的远程 Repository 和本地是一样的。所以将 Repository 间操作单独拿出来。
 
 ### 命令
 
