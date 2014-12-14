@@ -41,4 +41,3 @@ proxy 是正向代理方式，即先将你的请求发送到代理服务器，�
 对于这类软件，可以直接改变环境变量达到支持proxy的目的。作者使用的是http proxy，所以只需要添加一条环境变量。
 
     export http_proxy=‘proxy_id:proxy_port’
-
